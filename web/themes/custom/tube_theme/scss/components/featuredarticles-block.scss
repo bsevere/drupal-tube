@@ -1,0 +1,25 @@
+.block-views-blockfeatured-articles-block-1 {
+	background-color: $featured-grey;
+
+    h2 {
+    	&:first-child {
+			color: #666;
+			text-align: center;
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 500;
+			line-height: 19px;
+		}
+	}
+
+	.node .field--type-image {
+		float: none;
+		text-align: center;
+		margin: 0 1rem;
+	}
+
+	div.field, .subtext {
+		margin: 0 1rem;
+	}
+
+}

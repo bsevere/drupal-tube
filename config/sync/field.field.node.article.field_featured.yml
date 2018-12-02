@@ -1,0 +1,23 @@
+uuid: 489df252-551a-4636-8751-7cb7365c5aa7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured
+    - node.type.article
+id: node.article.field_featured
+field_name: field_featured
+entity_type: node
+bundle: article
+label: Featured
+description: 'Check this box to move this article to the top of the article list.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
