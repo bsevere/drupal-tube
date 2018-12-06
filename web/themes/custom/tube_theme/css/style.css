@@ -8235,18 +8235,31 @@ h3, h4, h5, h6 {
 .block-views-blockfeatured-articles-block-1 {
   background-color: #e0e0e0; }
   .block-views-blockfeatured-articles-block-1 h2:first-child {
-    color: #666;
+    color: #666666;
     text-align: center;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 500;
     line-height: 19px; }
+  .block-views-blockfeatured-articles-block-1 h2.node__title {
+    font-size: 2.25rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: inherit;
+    text-align: inherit;
+    margin-left: 1rem; }
   .block-views-blockfeatured-articles-block-1 .node .field--type-image {
     float: none;
     text-align: center;
     margin: 0 1rem; }
+    @media (max-width: 440px) {
+      .block-views-blockfeatured-articles-block-1 .node .field--type-image img {
+        width: 100%;
+        height: auto; } }
   .block-views-blockfeatured-articles-block-1 div.field, .block-views-blockfeatured-articles-block-1 .subtext {
     margin: 0 1rem; }
+  @media (max-width: 440px) {
+    .block-views-blockfeatured-articles-block-1 .node--view-mode-teaser {
+      text-align: center; } }
 
 /* GENERAL STYLES
 -------------------------------------------------*/

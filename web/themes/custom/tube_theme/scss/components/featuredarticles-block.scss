@@ -3,12 +3,19 @@
 
     h2 {
     	&:first-child {
-			color: #666;
+			color: $light-gray;
 			text-align: center;
 			font-size: 14px;
-			font-family: 'Open Sans', sans-serif;
+			font-family: $font-opensans;
 			font-weight: 500;
 			line-height: 19px;
+		}
+		&.node__title {
+			font-size: $font-size-h2;
+			font-family: $font-ubuntu;
+			font-weight: inherit;
+			text-align: inherit;
+			margin-left: 1rem;
 		}
 	}
 
@@ -16,10 +23,22 @@
 		float: none;
 		text-align: center;
 		margin: 0 1rem;
+		img {
+			@media (max-width: 440px) {
+				width: 100%;
+				height: auto;
+			}
+		}
 	}
 
 	div.field, .subtext {
 		margin: 0 1rem;
+	}
+
+	.node--view-mode-teaser {
+		@media (max-width: 440px) {
+			text-align: center;
+		}
 	}
 
 }

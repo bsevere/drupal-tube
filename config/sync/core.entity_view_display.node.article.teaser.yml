@@ -37,7 +37,7 @@ content:
     region: content
     settings:
       image_style: large
-      image_link: content
+      image_link: ''
     third_party_settings: {  }
     label: hidden
   links:
